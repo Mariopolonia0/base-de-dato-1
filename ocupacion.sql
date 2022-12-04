@@ -1,4 +1,4 @@
-//crear tabla de libros
+--crear tabla de libros
 create table Books(
 	bookId int primary key not null,
 	nombre varchar not null,
@@ -7,6 +7,25 @@ create table Books(
 	precio real not null
 )
 
+--modificar tamaño de una columna 
+ALTER TABLE Books ALTER COLUMN nombre varchar(100);
+ALTER TABLE Books ALTER COLUMN nombreAutor varchar(100);
+ALTER TABLE Books ALTER COLUMN edicion varchar(100);
+
+select * from Books;
+
+--insertar
+insert into Books(bookId ,nombre ,nombreAutor ,edicion ,precio ) 
+	values (4,'Kaliman en el valle de los vampiros', 'Victor Fox', '2da', 400);
+
+--actualizar
+update Books
+set nombre='no me hagas pensar',nombreAutor='Steve Krug',edicion='1ra',precio=200
+where bookId = 1;
+	
+update Books
+set nombre='Fundamentos de Programación',nombreAutor='Luis Joyanes Aguilar',edicion='1da',precio=410.0
+where bookId = 3;
 
 INSERT INTO Ocupaciones 
 (ocupacionId, descripcion,fechaRegistro,Salario)
