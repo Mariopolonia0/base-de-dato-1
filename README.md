@@ -1,8 +1,10 @@
 #query importantea
 
+mostrar todos las tabla de la base de datos sql lite 
 
+SELECT * FROM sqlite_master WHERE type = "table";
 
-mostrar todos las tabla de la base de datos
+mostrar todos las tabla de la base de datos sql server 
 
 SELECT * FROM INFORMATION_SCHEMA.TABLES
 
