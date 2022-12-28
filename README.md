@@ -1,18 +1,14 @@
-#query importantea
+# query importantes
 
-mostrar todos las tabla de la base de datos sql lite 
+## mostrar todos las tabla de la base de datos sql lite 
 
-SELECT * FROM sqlite_master WHERE type = "table";
+### SELECT * FROM sqlite_master WHERE type = "table";
 
-mostrar todos las tabla de la base de datos sql server 
+## mostrar todos las tabla de la base de datos sql server 
 
-SELECT * FROM INFORMATION_SCHEMA.TABLES
-
-
+### SELECT * FROM INFORMATION_SCHEMA.TABLES
 
 DELETE  from Ocupaciones where ocupacionId > 14
-
-
 
 INSERT INTO Ocupaciones 
 (ocupacionId, descripcion,fechaRegistro,Salario)
@@ -28,4 +24,4 @@ VALUES
  (10, "Trailero","16/6/2022",90000 ),
  (11, "Mecanico","16/6/2022",90000 ),
  (12, "Artista","16/6/2022",90000 ),
- (13, "Maestro","16/6/2022",90000 )
+ (13, "Maestro","16/6/2022",90000 );
