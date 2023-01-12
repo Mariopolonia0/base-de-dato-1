@@ -11,7 +11,7 @@
 ## DELETE  from Ocupaciones where ocupacionId > 14
 
 ***
-![consulta](https://user-images.githubusercontent.com/65502311/212186524-0017bc9d-6733-460c-8cd2-542f393e367c.PNG)
+![consulta](https://user-images.githubusercontent.com/65502311/212186818-6c9ee5d2-f023-440c-adbd-011cbb398829.PNG)
 ***
 
 INSERT INTO Ocupaciones 
