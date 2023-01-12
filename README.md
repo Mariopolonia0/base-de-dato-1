@@ -2,15 +2,13 @@
 
 ## mostrar todos las tabla de la base de datos sql lite 
 
-### SELECT * FROM sqlite_master WHERE type = "table";
+## SELECT * FROM sqlite_master WHERE type = "table";
 
 ## mostrar todos las tabla de la base de datos sql server 
 
-### SELECT * FROM INFORMATION_SCHEMA.TABLES
+## SELECT * FROM INFORMATION_SCHEMA.TABLES
 
-### delete from Clientes where clienteId = 2
-
-DELETE  from Ocupaciones where ocupacionId > 14
+## DELETE  from Ocupaciones where ocupacionId > 14
 
 INSERT INTO Ocupaciones 
 (ocupacionId, descripcion,fechaRegistro,Salario)
