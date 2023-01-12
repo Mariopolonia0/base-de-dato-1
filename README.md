@@ -10,6 +10,10 @@
 
 ## DELETE  from Ocupaciones where ocupacionId > 14
 
+***
+![consulta](https://user-images.githubusercontent.com/65502311/212186524-0017bc9d-6733-460c-8cd2-542f393e367c.PNG)
+***
+
 INSERT INTO Ocupaciones 
 (ocupacionId, descripcion,fechaRegistro,Salario)
 VALUES
