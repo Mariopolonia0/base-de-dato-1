@@ -8,6 +8,8 @@
 
 ### SELECT * FROM INFORMATION_SCHEMA.TABLES
 
+### delete from Clientes where clienteId = 2
+
 DELETE  from Ocupaciones where ocupacionId > 14
 
 INSERT INTO Ocupaciones 
