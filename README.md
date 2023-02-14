@@ -1,6 +1,9 @@
 # query importantes
 
-## mostrar todos las tabla de la base de datos sql lite 
+***
+SELECT * FROM CITY
+WHERE POPULATION > 100000 AND COUNTRYCODE = 'USA'
+***
 
 ## SELECT * FROM sqlite_master WHERE type = "table";
 
