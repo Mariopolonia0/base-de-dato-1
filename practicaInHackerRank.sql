@@ -17,3 +17,21 @@ WHERE POPULATION > 100000 AND COUNTRYCODE = 'USA'
 
 SELECT NAME FROM CITY
 WHERE POPULATION > 120000 AND COUNTRYCODE = 'USA'
+
+/*
+ * Query all attributes of every Japanese city in the CITY table. 
+ * The COUNTRYCODE for Japan is JPN.
+ * The CITY table is described as follows:
+ */
+
+SELECT * FROM CITY
+WHERE COUNTRYCODE = 'JPN'
+
+/*
+ * Query the names of all the Japanese cities in the CITY table.
+ * The COUNTRYCODE for Japan is JPN.
+ * The CITY table is described as follows:
+ */
+
+SELECT NAME FROM CITY
+WHERE COUNTRYCODE = 'JPN'
